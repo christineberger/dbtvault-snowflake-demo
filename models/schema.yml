@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: tpch_sample
-    database: SNOWFLAKE_SAMPLE_DATA
+    database: RAW_TPCH
     schema: TPCH_SF{{ var('tpch_size', 10) }}
     tables:
       - name: LINEITEM
